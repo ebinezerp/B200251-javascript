@@ -1,0 +1,114 @@
+web application
+ 1. static 
+ 2. dynamic - user can interact with the appliction, either to provide the data or not get data from application
+
+     a. user interface for user to interact
+     b. user interface should be user friendly 
+            HTML, CSS - to provides
+     c. To provide a better user experience, just styling of application is not enough.
+     d. interactivity -> javascript (we making web page live)
+
+   
+   In developing web application 
+              Client - Server 
+
+              Client -> send the request to server to process and server provides response to client
+
+              Millions of clients -> one server.
+
+              some functionalities -> (Sorting data, dynamically filtering data, dynamically removing temp or adding some data temp,simplec calculations) provide at client and some functionalites at server (manuplating data at DB)
+
+
+JavaScript 
+
+Enterprise level application
+
+
+Modularisation
+following Design patterns
+Routing from one page to another page
+Access data from onepage to another page.
+
+
+Frameworks are introduced to develop client applications.
+1. Angular  -> Google
+2. React   -> Facebook
+3. Vue  -> Community 
+4. Flutter -> Community
+5. Larwel
+
+
+Case - Domain Problem.
+
+1. React provides more easy customization than Angular
+2. React depends upon more external libraries.
+
+
+Angular
+
+1. Vast framework and more built in features are available
+2. More abstraction is provided
+3. A defined architecture can be maintained 
+
+
+Advantages:
+  a. Vast framework with no of built-in features
+  b. It supported by Google
+  c. Single Page Applications.
+      Angular Directly chages the DOM -> won't change or relod the webpage
+
+
+To create angular application
+
+1. NodeJs 
+      Angular can downloaded from node package manager.
+
+ Angular Versions -> 
+
+   current -> 10 version
+   
+   Angular 1 - developed on JavaScript
+   Angular 2 - develop with TypeScript
+               TypeScript is a lib, which a wrapper around ES6(JavaScript) + type script lib, that                 provides type fastey to the application.
+
+                  JavaScript is dynamic datatype scripting language.
+                  dynamic datatype scripting language may introduce more errors into applications.
+
+                  Transpiler - (compiler) , to convert typescript code to javascript.
+
+                              ES5 (All object oriented syntax are introduced)
+                                     classes, constructors,methods,interfaces
+                 TypeScript - ES6 (ECMA Script 6) - 1. Modularisation
+                      previous to ES6 - to achieve modularization - we depened on SystemJs or RequireJS
+                         
+
+
+
+   Angular 5  -> Http -> API changed
+   Angular 6  -> Reactive library is introduced
+
+
+
+
+   Type of application 
+         1. Calculator
+         2. Diary application(To-do list)
+         3. Snake game in mobile/deskop
+
+
+   Angular is itself is engough.
+
+        1. Swiggy
+        2. Amazon
+        3. Facebook
+
+
+   Augular + (Java/.Net/NodeJs/PHP)
+
+
+
+
+
+
+
+
