@@ -1,0 +1,13 @@
+Spring web mvc -> registration and login
+
+Spring AOP -> Aspect Oriented Programming
+
+spring-aop.jar
+spring-ascpect.jar
+aspectj.jar
+aspectjweaver.jar
+
+Concerns
+Cross Cutting Concerns
+
+PointCut -> it point where cross conceren method has to execute

@@ -1,0 +1,194 @@
+Angular 2nd Version
+
+   TypeScript 
+
+     
+   Datatypes
+      number
+      string 
+      boolean
+      undefined -value - primitive
+      null - value - reference - no memory allocation.
+
+
+
+    Java - String name;
+    JavaScript - var name;
+                 let name:string;        - ES5
+
+    TypeScript - let name:string 
+
+
+  let and var - scope level differece.
+
+      var - global and local
+      let - global,local and block.
+
+     {
+
+     }
+
+
+User Defined Datatype
+
+    1. Array
+    2. Tupple
+    3. functions
+    4. Enums
+    5. Class
+    6. Interface
+
+
+
+In JavaScript Arrays are of dynamic -> no fixed size
+
+ Arrays:
+ 
+JavaScript:
+
+   let nums = [4,5,6,1,6];
+   nums = 10;
+   nums = "ravi";
+
+TypeScript
+
+   Primitive Datatypes (built-in) datatypes:
+
+    1.number
+    2.string
+    3.boolane
+
+  Declaration Syntax:
+     
+     let variableName: datatype;
+
+     Ex: let firstname:string;
+         let age:number;
+         let isActive:boolean;
+
+
+  Declartion along with intialization
+
+     let variableName:datatype = value;
+
+     Ex: let firstname:string = "ravi";
+         let age: number = 28;
+         let isActive:boolean = true;
+
+
+  Intialization after declartion statment:
+ 
+       let name:string;
+       name = "ravi";
+
+       let age:number;
+       age = 34;
+
+
+    
+ Userdefined Datatypes:
+============================
+
+   1. Arrays
+   2. Tupple
+   3. Enums
+   4. Functions
+   5. Class
+   6. Interface
+
+
+1. Arrays.
+
+    In scripting language(javascript/typescript) array is of dynamic in nature (growable)  - not a fixed     size array
+
+   Declaration:
+
+       let variableName: datatype[];
+ 
+       Ex:  let marks: number[];
+            let friendsNames: string[];
+
+   Declaration along with intalization:
+
+         let marks: number[] = [4,5,6,6];
+         let friendsNames: string[] = ["ravi","gowtham","geetha","ajay"];
+
+
+   Intialization after declaration statement:
+
+      let nums:number[];
+       nums = [3,5,6,6];
+
+   based on Index
+
+     nums[0] = 10;
+     nums[1] = 20;
+
+
+
+   Array functions:
+   ==============
+     1. push()  - push adds the elements at end of array
+     2. pop()   - pop removes the elements from end of the array.
+     3. shift() - to remove the elements from the begining of the array.
+     4. unshift() - to add elements at the begining of the array.
+     5. slice() - to segregate single array into multiple arrays
+
+                    let nums:number[] = [10,12, 45,14,17,0,6];
+                    let subArray:number[] = nums.slice(3,6); -> end element is exclusive
+                    console.log(subArray); // [14,17,0]
+                    console.log(nums);//  [10,12,45,14,17,0,6];
+
+                    let subSubArray:number[] = subArray.slice(1,2);
+                    console.log(subSubArray); // 17
+
+     6. splice() - to remove and add new elements.
+
+              let nums:number[] = [10,12, 45,14,17,0,6];
+
+               nums.splice(2,3,100,200);
+              
+               console.log(nums); // 10,12,100,200,17,0,6
+
+
+
+
+      7. reverse()
+      8. sort() - arrange the elements in ascending order
+
+                
+              let nums:number[] = [10,12, 45,14,17,0,6];
+              nums.sort();
+              console.log(nums);
+
+
+             based on unicod value the are arranged.
+             sort method by defualt arranges the data as string sort.
+
+
+      9.   contact()
+      10.  join()
+      11.  includes()
+      12.  indexOf()
+      13.  lastIndexOf();
+
+
+
+   Tupple
+
+    class,interface, modularization
+
+
+    Angular.
+
+
+
+
+
+
+      
+
+
+
+
+
