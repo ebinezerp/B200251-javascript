@@ -1,0 +1,34 @@
+Objects:
+
+  JavaScript:
+    Delaration and intialization of object:
+ 
+      let objectName = {
+                            properties,
+                            functions
+                       }
+
+
+     javascript is a dynamic datatype scripting language
+
+     JavaScript Version
+     
+      ECMAScript - ....,ES5,ES6
+
+     class User{
+           String name;
+           int age;
+           void display(){
+                 System.out.println(name+" "+age);
+           }
+     }
+
+
+
+     Typscript
+    ===========
+
+
+
+
+
